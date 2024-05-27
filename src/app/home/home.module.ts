@@ -13,8 +13,9 @@ import { MessageComponentModule } from '../message/message.module';
     FormsModule,
     IonicModule,
     MessageComponentModule,
-    HomePageRoutingModule
+    HomePageRoutingModule,
+    HomePage, // Add HomePage to the imports array
   ],
-  declarations: [HomePage]
+  declarations: [], // Remove HomePage from the declarations array
 })
 export class HomePageModule {}
